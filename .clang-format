@@ -1,19 +1,19 @@
 ---
+Language: Cpp
 BasedOnStyle: Google
-AlignConsecutiveMacros: 'true'
-AlignConsecutiveAssignments: 'true'
-AllowShortCaseLabelsOnASingleLine: 'true'
-AllowShortBlocksOnASingleLine: 'Empty'
-AllowShortIfStatementsOnASingleLine: 'Never'
-AllowShortLoopsOnASingleLine: 'false'
-BreakBeforeBraces: Allman
-Cpp11BracedListStyle: 'false'
-ColumnLimit: 125 
+UseCRLF: false
+UseTab: Always
+IndentWidth: 8
+TabWidth: 8
+BreakBeforeBraces: Attach
+Cpp11BracedListStyle: true
+ColumnLimit: 120
 NamespaceIndentation: All
-SpaceAfterTemplateKeyword: 'false'
-SpaceBeforeCtorInitializerColon: 'true'
-SpaceBeforeInheritanceColon: 'true'
-SpaceBeforeRangeBasedForLoopColon: 'true'
-SpaceInEmptyBlock: true
-Standard: 'Latest'
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeRangeBasedForLoopColon: true
+Standard: Latest
+DerivePointerAlignment: false
+PointerAlignment: Right
 ...

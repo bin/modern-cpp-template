@@ -1,0 +1,10 @@
+# Libraries don't count
+lib/* linguist-vendored
+# Main files (definitions)
+*.cxx linguist-language=C++
+# Header files (declarations)
+*.hxx linguist-language=C++
+# Inline files (inline functions)
+*.ixx linguist-language=C++
+# Template files (template definitions)
+*.txx linguist-language=C++
