@@ -1,3 +1,6 @@
 [submodule "vcpkg"]
 	path = vcpkg
 	url = git://github.com/microsoft/vcpkg
+[submodule "cmake/clangformat-cmake"]
+	path = cmake/clangformat-cmake
+	url = https://github.com/zemasoft/clangformat-cmake
